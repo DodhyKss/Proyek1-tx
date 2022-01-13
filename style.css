@@ -1,0 +1,39 @@
+* {
+
+	margin:5px;
+	padding: 15px;
+}
+
+.container {
+	max-width: 600px;
+    margin: 5px auto;
+    font-family: sans-serif;
+    color: #333;
+    border:2px solid #dedede;
+    background-color: lightblue;
+}
+
+.container h1 {
+	text-align: center;
+}
+
+input {
+	border:1px solid white;
+}
+.container .klue {
+	margin:15px 25px;
+	height: 25px;
+}
+.container .hasil {
+	background-color: lightgreen;
+	margin:15px 25px;
+	height: 30px; 
+	text-align: center;}
+
+
+button {
+	border:1px solid lightblue;
+}
+button:hover {
+	background-color: lightgreen;
+}

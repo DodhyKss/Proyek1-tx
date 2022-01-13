@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="judul">Tebak Angka</h1>
+    <div class="inputan">
+      <p class="ket1">Input Angka 1 - 10</p>
+      <input id="inpangka" placeholder="Input angka" >
+      <button class="tb1" onclick="inputAngka()">Kirim</button>
+    </div>
+    <div class="tebakan">
+      <p class="ket1">Tebak Angka dari 1 - 20</p>
+      <input id="inptebak" placeholder="Tebak angka">
+      <button class="tb2" onclick="tebakAngka()" >Tebak</button>
+      <button class="tb2" onclick="klue()">Klue</button>
+    </div>
+    <p class="klue"></p>
+    <h2 class="hasil"></h2>
+    <div class="ulang">
+      <button class="tb3" onclick="ulang()">Ulang</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
