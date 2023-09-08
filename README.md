@@ -1,3 +1,3 @@
-# Proyek1-tx
+# Find Number Game
 
 this is game find number
